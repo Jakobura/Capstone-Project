@@ -83,11 +83,11 @@ Active minutes: Calculating time spent in different activity levels (e.g., seden
 Sleep patterns: Analyzing the amount of time spent in deep sleep, light sleep, or awake.
 Active hours: Analyzing the hours of the day when users are most or least active.
 
-## Share
+## 5. Share
 Visualizing the Data
 Once the data is cleaned, merged, and analyzed, it can be visualized using matplotlib or seaborn to identify trends and insights. Visualizations like bar charts, line graphs, and scatter plots are commonly used to display the relationships between variables such as steps, calories, and active minutes.
 
-## Act
+## 6. Act
 Finally, insights were drawn based on the analysis. Some possible insights could include: Active times of the day: Identifying the hours when users are most and least active, Sleep habits: Analyzing how sleep durations correlate with activity levels or calories burned.
 User trends: Observing differences in activity across days of the week (e.g., more active on weekdays vs weekends).
 
