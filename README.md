@@ -67,12 +67,12 @@ Overall, Fitbit datasets are generally credible for personal health insights and
 The Fitbit data was processed to extract meaningful insights about users' activities, sleep patterns, and health metrics. The following steps were used to process the datasets that includes activity logs, step counts, calories burned, sleep data, and other variables.
 
 Here’s a general outline of the steps involved in processing Fitbit data:
-***1. Loading the Data***
+#### a. Loading the Data
 The first step is to load the Fitbit data from a CSV file or other data format (e.g., .xlsx, .json) using libraries such as pandas. The data could include activity and sleep data over several hours or days.
-***2. Cleaning and Preprocessing the Data***
+### b. Cleaning and Preprocessing the Data
 Handling Missing or Inconsistent Data: Missing or corrupted data entries are identified and removed or filled. For example, if a column contains "NaN" or missing values, they can be dropped or filled using appropriate techniques.
 Datetime Conversion: Many Fitbit datasets include date and time columns (e.g., ActivityDate, ActivityHour, SleepDay). These columns need to be converted to datetime objects for easy manipulation and analysis.
-***3. Merging Datasets***
+### c. Merging Datasets
 Fitbit data is often recorded across different files, such as hourly steps, hourly calories, and sleep data. These datasets need to be merged based on common columns like Id (user ID) or ActivityHour (timestamp). Merging allows the datasets to be combined into one comprehensive dataset for further analysis.
 
 ## 4. Analyzing the Data
