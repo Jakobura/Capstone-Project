@@ -1,4 +1,4 @@
-# John O. Agumba-Capstone-Project
+# John O. Agumba-Capstone Project Using Python
 # <span style="color: orange;">Bellabeat Capstone using Fitbeat Data- Analysis using Python</span>
 
 ## <span style="color: blue;">Introduction</span>
